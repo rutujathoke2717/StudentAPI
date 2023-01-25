@@ -25,7 +25,7 @@ public class DemoController {
 	@Autowired
 	private DemoService demoservice;
 
-	@GetMapping("/school")
+	@GetMapping("/student")
 	public List<Student1> listAll() {
 		return demoservice.listAll();
 	}
