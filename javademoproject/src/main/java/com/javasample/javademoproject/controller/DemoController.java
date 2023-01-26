@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.javasample.javademoproject.entity.Student1;
+import com.javasample.javademoproject.entity.Student;
 import com.javasample.javademoproject.exception.StudentIsAlreadyExistedException;
 import com.javasample.javademoproject.exception.StudentNotFoundException;
 import com.javasample.javademoproject.service.DemoService;
@@ -25,38 +25,38 @@ public class DemoController {
 	@Autowired
 	private DemoService demoservice;
 
-	@GetMapping("/school")
-	public List<Student1> listAll() {
+	@GetMapping("/student")
+	public List<Student> listAll() {
 		return demoservice.listAll();
 	}
 
-	@GetMapping("/school/{id}")
-	public ResponseEntity<Student1> get(@PathVariable("id") int id) throws StudentNotFoundException {
+	@GetMapping("/student/{id}")
+	public ResponseEntity<Student> get(@PathVariable("id") int id) throws StudentNotFoundException {
 		return new ResponseEntity<>(demoservice.get(id), HttpStatus.OK);
 
 	}
 
-	@PostMapping("/school")
-	public ResponseEntity<Student1> save(@Validated @RequestBody Student1 std) {
-		Student1 data = demoservice.findByName(std.getName());
+	@PostMapping("/student")
+	public ResponseEntity<Student> save(@Validated @RequestBody Student std) {
+		Student data = demoservice.findByName(std.getName());
 		if (data != null) {
 			throw new StudentIsAlreadyExistedException("Student is already existed");
 		} else
 			return new ResponseEntity<>(demoservice.save(std), HttpStatus.CREATED);
 	}
 
-	@PutMapping("/school/{id}")
-	public ResponseEntity<Student1> update(@RequestBody Student1 std, @PathVariable("id") int id) {
-		Student1 existingdata = demoservice.findById(id);
+	@PutMapping("/student/{id}")
+	public ResponseEntity<Student> update(@RequestBody Student std, @PathVariable("id") int id) {
+		Student existingdata = demoservice.findById(id);
 		if (existingdata == null) {
 			throw new StudentNotFoundException("Student not found ");
 		}
 		return new ResponseEntity<>(demoservice.update(std, existingdata), HttpStatus.OK);
 	}
 
-	@DeleteMapping("/school/{id}")
-	public ResponseEntity<Student1>delete(@PathVariable("id") int id){
-		Student1 existingdata = demoservice.findById(id);
+	@DeleteMapping("/student/{id}")
+	public ResponseEntity<Student>delete(@PathVariable("id") int id){
+		Student existingdata = demoservice.findById(id);
 		if(existingdata==null) {
 			throw new StudentNotFoundException("Student not found ");
 		}

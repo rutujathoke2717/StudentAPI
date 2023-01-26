@@ -3,11 +3,13 @@ package com.javasample.javademoproject.serviceImpl;
 import java.util.List;
 
 
+
 import java.util.Optional;
 import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.javasample.javademoproject.entity.Student1;
+
+import com.javasample.javademoproject.entity.Student;
 import com.javasample.javademoproject.exception.StudentNotFoundException;
 import com.javasample.javademoproject.repository.StdRepository;
 import com.javasample.javademoproject.service.DemoService;
@@ -20,18 +22,18 @@ public class DemoserviceImpl implements DemoService {
 	private StdRepository repository;
 
 	@Override
-	public List<Student1> listAll() {
+	public List<Student> listAll() {
 		return repository.findAll();
 	}
 
 	@Override
-	public Student1 save(Student1 data) {
+	public Student save(Student data) {
 		return repository.save(data);
 	}
 
 	@Override
-	public Student1 get(Integer id) throws StudentNotFoundException {
-		Student1 std;
+	public Student get(Integer id) throws StudentNotFoundException {
+		Student std;
 		if (repository.findById(id).isEmpty()) {
 			throw new StudentNotFoundException("Student not found with id");
 		} else
@@ -46,7 +48,7 @@ public class DemoserviceImpl implements DemoService {
 	}
 
 	@Override
-	public Student1 update(Student1 data, Student1 existingdata) {
+	public Student update(Student data, Student existingdata) {
 		if (data.getName() != null) {
 			existingdata.setName(data.getName());
 		}
@@ -56,8 +58,8 @@ public class DemoserviceImpl implements DemoService {
 		return repository.save(existingdata);
 	}
 
-	public Student1 findByName(String name) {
-		Optional<Student1> std = repository.findByName(name);
+	public Student  findByName(String name) {
+		Optional<Student> std = repository.findByName(name);
 		if (std.isPresent()) {
 			return std.get();
 		}
@@ -65,8 +67,8 @@ public class DemoserviceImpl implements DemoService {
 	}
 
 	@Override
-	public Student1 findById(int id) {
-		Optional<Student1> emp = repository.findById(id);
+	public Student findById(int id) {
+		Optional<Student> emp = repository.findById(id);
 		if(emp.isPresent()) {
 			return emp.get();
 		}
