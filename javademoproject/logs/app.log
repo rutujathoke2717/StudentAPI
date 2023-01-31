@@ -1,0 +1,167 @@
+2023-01-31 18:05:05,546 INFO c.j.j.JavademoprojectApplication [restartedMain] Starting JavademoprojectApplication using Java 19.0.1 on DESKTOP-F6DF3LN with PID 18952 (C:\Users\rutuja\StudentAPI\javademoproject\target\classes started by rutuja in C:\Users\rutuja\StudentAPI\javademoproject)
+2023-01-31 18:05:05,548 INFO c.j.j.JavademoprojectApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-01-31 18:05:06,038 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-31 18:05:06,080 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interfaces.
+2023-01-31 18:05:06,324 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-31 18:05:06,326 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2023-01-31 18:05:06,328 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-01-31 18:05:18,513 INFO c.j.j.JavademoprojectApplication [main] Application started
+2023-01-31 18:05:18,876 INFO c.j.j.JavademoprojectApplication [restartedMain] Application started
+2023-01-31 18:05:19,670 INFO c.j.j.JavademoprojectApplication [restartedMain] Starting JavademoprojectApplication using Java 19.0.1 on DESKTOP-F6DF3LN with PID 24128 (C:\Users\rutuja\StudentAPI\javademoproject\target\classes started by rutuja in C:\Users\rutuja\StudentAPI\javademoproject)
+2023-01-31 18:05:19,676 INFO c.j.j.JavademoprojectApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-01-31 18:05:21,322 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-31 18:05:21,494 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 145 ms. Found 1 JPA repository interfaces.
+2023-01-31 18:05:22,897 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-31 18:05:22,898 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2023-01-31 18:05:22,898 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-01-31 18:05:23,111 INFO o.a.c.c.C.[.[.[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-01-31 18:05:23,428 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-31 18:05:23,542 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-01-31 18:05:23,881 INFO o.h.a.c.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-31 18:05:24,115 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-01-31 18:05:24,647 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-01-31 18:05:24,681 INFO o.h.d.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2023-01-31 18:05:25,893 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-31 18:05:25,907 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-31 18:05:27,668 INFO o.a.c.h.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-01-31 18:05:27,744 INFO c.j.j.JavademoprojectApplication [restartedMain] Started JavademoprojectApplication in 8.855 seconds (JVM running for 11.034)
+2023-01-31 18:08:47,370 INFO o.a.c.h.Http11NioProtocol [Thread-5] Pausing ProtocolHandler ["http-nio-8080"]
+2023-01-31 18:08:47,374 INFO o.a.c.c.StandardService [Thread-5] Stopping service [Tomcat]
+2023-01-31 18:08:47,408 INFO o.a.c.h.Http11NioProtocol [Thread-5] Stopping ProtocolHandler ["http-nio-8080"]
+2023-01-31 18:08:47,418 INFO o.a.c.h.Http11NioProtocol [Thread-5] Destroying ProtocolHandler ["http-nio-8080"]
+2023-01-31 18:08:47,430 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-31 18:08:47,441 INFO c.z.h.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2023-01-31 18:08:47,463 INFO c.z.h.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2023-01-31 18:08:47,563 INFO c.j.j.JavademoprojectApplication [restartedMain] Application started
+2023-01-31 18:08:47,739 INFO c.j.j.JavademoprojectApplication [restartedMain] Starting JavademoprojectApplication using Java 19.0.1 on DESKTOP-F6DF3LN with PID 24128 (C:\Users\rutuja\StudentAPI\javademoproject\target\classes started by rutuja in C:\Users\rutuja\StudentAPI\javademoproject)
+2023-01-31 18:08:47,742 INFO c.j.j.JavademoprojectApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-01-31 18:08:48,425 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-31 18:08:48,467 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interfaces.
+2023-01-31 18:08:48,695 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-31 18:08:48,696 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2023-01-31 18:08:48,698 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-01-31 18:08:48,794 INFO o.a.c.c.C.[.[.[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-01-31 18:08:48,906 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-31 18:08:48,924 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2023-01-31 18:08:48,960 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2023-01-31 18:08:48,961 INFO o.h.d.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2023-01-31 18:08:49,032 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-31 18:08:49,033 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-31 18:08:49,453 INFO o.a.c.h.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-01-31 18:08:49,467 INFO c.j.j.JavademoprojectApplication [restartedMain] Started JavademoprojectApplication in 1.892 seconds (JVM running for 212.756)
+2023-01-31 18:15:28,946 INFO o.a.c.h.Http11NioProtocol [Thread-7] Pausing ProtocolHandler ["http-nio-8080"]
+2023-01-31 18:15:28,947 INFO o.a.c.c.StandardService [Thread-7] Stopping service [Tomcat]
+2023-01-31 18:15:28,958 INFO o.a.c.h.Http11NioProtocol [Thread-7] Stopping ProtocolHandler ["http-nio-8080"]
+2023-01-31 18:15:28,963 INFO o.a.c.h.Http11NioProtocol [Thread-7] Destroying ProtocolHandler ["http-nio-8080"]
+2023-01-31 18:15:28,969 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [Thread-7] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-31 18:15:28,974 INFO c.z.h.HikariDataSource [Thread-7] HikariPool-2 - Shutdown initiated...
+2023-01-31 18:15:29,012 INFO c.z.h.HikariDataSource [Thread-7] HikariPool-2 - Shutdown completed.
+2023-01-31 18:15:29,125 INFO c.j.j.JavademoprojectApplication [restartedMain] Application started
+2023-01-31 18:15:29,225 INFO c.j.j.JavademoprojectApplication [restartedMain] Starting JavademoprojectApplication using Java 19.0.1 on DESKTOP-F6DF3LN with PID 24128 (C:\Users\rutuja\StudentAPI\javademoproject\target\classes started by rutuja in C:\Users\rutuja\StudentAPI\javademoproject)
+2023-01-31 18:15:29,227 INFO c.j.j.JavademoprojectApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-01-31 18:15:29,488 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-31 18:15:29,510 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 21 ms. Found 1 JPA repository interfaces.
+2023-01-31 18:15:29,617 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-31 18:15:29,618 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2023-01-31 18:15:29,618 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-01-31 18:15:29,671 INFO o.a.c.c.C.[.[.[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-01-31 18:15:29,715 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-31 18:15:29,726 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2023-01-31 18:15:29,747 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2023-01-31 18:15:29,748 INFO o.h.d.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2023-01-31 18:15:29,787 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-31 18:15:29,789 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-31 18:15:30,024 INFO o.a.c.h.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-01-31 18:15:30,039 INFO c.j.j.JavademoprojectApplication [restartedMain] Started JavademoprojectApplication in 0.904 seconds (JVM running for 613.342)
+2023-01-31 18:17:03,335 INFO o.a.c.h.Http11NioProtocol [Thread-11] Pausing ProtocolHandler ["http-nio-8080"]
+2023-01-31 18:17:03,337 INFO o.a.c.c.StandardService [Thread-11] Stopping service [Tomcat]
+2023-01-31 18:17:03,347 INFO o.a.c.h.Http11NioProtocol [Thread-11] Stopping ProtocolHandler ["http-nio-8080"]
+2023-01-31 18:17:03,353 INFO o.a.c.h.Http11NioProtocol [Thread-11] Destroying ProtocolHandler ["http-nio-8080"]
+2023-01-31 18:17:03,357 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [Thread-11] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-31 18:17:03,360 INFO c.z.h.HikariDataSource [Thread-11] HikariPool-3 - Shutdown initiated...
+2023-01-31 18:17:03,393 INFO c.z.h.HikariDataSource [Thread-11] HikariPool-3 - Shutdown completed.
+2023-01-31 18:17:03,485 INFO c.j.j.JavademoprojectApplication [restartedMain] Application started
+2023-01-31 18:17:03,562 INFO c.j.j.JavademoprojectApplication [restartedMain] Starting JavademoprojectApplication using Java 19.0.1 on DESKTOP-F6DF3LN with PID 24128 (C:\Users\rutuja\StudentAPI\javademoproject\target\classes started by rutuja in C:\Users\rutuja\StudentAPI\javademoproject)
+2023-01-31 18:17:03,563 INFO c.j.j.JavademoprojectApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-01-31 18:17:03,767 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-31 18:17:03,785 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 18 ms. Found 1 JPA repository interfaces.
+2023-01-31 18:17:03,862 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-31 18:17:03,863 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2023-01-31 18:17:03,863 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-01-31 18:17:03,908 INFO o.a.c.c.C.[.[.[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-01-31 18:17:03,939 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-31 18:17:03,947 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-4 - Starting...
+2023-01-31 18:17:03,965 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-4 - Start completed.
+2023-01-31 18:17:03,965 INFO o.h.d.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2023-01-31 18:17:03,999 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-31 18:17:03,999 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-31 18:17:04,336 INFO o.a.c.h.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-01-31 18:17:04,356 INFO c.j.j.JavademoprojectApplication [restartedMain] Started JavademoprojectApplication in 0.863 seconds (JVM running for 707.682)
+2023-01-31 18:20:46,207 INFO c.j.j.JavademoprojectApplication [main] Application started
+2023-01-31 18:20:46,480 INFO c.j.j.JavademoprojectApplication [restartedMain] Application started
+2023-01-31 18:20:47,005 INFO c.j.j.JavademoprojectApplication [restartedMain] Starting JavademoprojectApplication using Java 19.0.1 on DESKTOP-F6DF3LN with PID 21204 (C:\Users\rutuja\StudentAPI\javademoproject\target\classes started by rutuja in C:\Users\rutuja\StudentAPI\javademoproject)
+2023-01-31 18:20:47,009 INFO c.j.j.JavademoprojectApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-01-31 18:20:48,110 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-31 18:20:48,210 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 76 ms. Found 1 JPA repository interfaces.
+2023-01-31 18:20:49,255 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-31 18:20:49,256 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2023-01-31 18:20:49,256 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-01-31 18:20:49,397 INFO o.a.c.c.C.[.[.[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-01-31 18:20:49,650 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-31 18:20:49,727 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-01-31 18:20:49,958 INFO o.h.a.c.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-31 18:20:50,102 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-01-31 18:20:50,504 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-01-31 18:20:50,524 INFO o.h.d.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2023-01-31 18:20:51,398 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-31 18:20:51,420 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-31 18:20:52,406 INFO o.a.c.h.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-01-31 18:20:52,412 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-31 18:20:52,417 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Shutdown initiated...
+2023-01-31 18:20:52,428 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Shutdown completed.
+2023-01-31 18:20:52,431 INFO o.a.c.h.Http11NioProtocol [restartedMain] Pausing ProtocolHandler ["http-nio-8080"]
+2023-01-31 18:20:52,432 INFO o.a.c.c.StandardService [restartedMain] Stopping service [Tomcat]
+2023-01-31 18:20:52,440 INFO o.a.c.h.Http11NioProtocol [restartedMain] Stopping ProtocolHandler ["http-nio-8080"]
+2023-01-31 18:20:52,441 INFO o.a.c.h.Http11NioProtocol [restartedMain] Destroying ProtocolHandler ["http-nio-8080"]
+2023-01-31 18:20:52,486 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2023-01-31 18:21:05,093 INFO c.j.j.JavademoprojectApplication [main] Application started
+2023-01-31 18:21:05,390 INFO c.j.j.JavademoprojectApplication [restartedMain] Application started
+2023-01-31 18:21:05,908 INFO c.j.j.JavademoprojectApplication [restartedMain] Starting JavademoprojectApplication using Java 19.0.1 on DESKTOP-F6DF3LN with PID 6316 (C:\Users\rutuja\StudentAPI\javademoproject\target\classes started by rutuja in C:\Users\rutuja\StudentAPI\javademoproject)
+2023-01-31 18:21:05,912 INFO c.j.j.JavademoprojectApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-01-31 18:21:06,994 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-31 18:21:07,090 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 82 ms. Found 1 JPA repository interfaces.
+2023-01-31 18:21:08,139 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-31 18:21:08,140 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2023-01-31 18:21:08,141 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-01-31 18:21:08,283 INFO o.a.c.c.C.[.[.[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-01-31 18:21:08,519 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-31 18:21:08,598 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-01-31 18:21:08,827 INFO o.h.a.c.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-31 18:21:08,987 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-01-31 18:21:09,394 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-01-31 18:21:09,420 INFO o.h.d.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2023-01-31 18:21:10,249 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-31 18:21:10,262 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-31 18:21:11,393 INFO o.a.c.h.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-01-31 18:21:11,437 INFO c.j.j.JavademoprojectApplication [restartedMain] Started JavademoprojectApplication in 6.04 seconds (JVM running for 7.42)
+2023-01-31 18:21:57,203 INFO o.a.c.c.C.[.[.[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-31 18:21:57,204 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-01-31 18:21:57,205 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-01-31 18:21:57,246 INFO c.j.j.JavademoprojectApplication [http-nio-8080-exec-1] DemoController:: get student list
+2023-01-31 18:24:31,390 INFO c.j.j.JavademoprojectApplication [http-nio-8080-exec-5] DemoController:: get student list
+2023-01-31 18:28:42,131 INFO c.j.j.JavademoprojectApplication [http-nio-8080-exec-9] DemoController:: update student by id
+2023-01-31 18:30:20,080 INFO c.j.j.JavademoprojectApplication [http-nio-8080-exec-1] DemoController:: create student
+2023-01-31 18:30:56,675 INFO c.j.j.JavademoprojectApplication [http-nio-8080-exec-3] DemoController:: delete student by id
